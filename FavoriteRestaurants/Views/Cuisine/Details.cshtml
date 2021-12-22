@@ -1,0 +1,8 @@
+@model FavoriteRestaurants.Models.Cuisine
+
+<h2>Cuisine Type Details</h2>
+<hr />
+<h3>@Html.DisplayNameFor(model => model.CuisineType): @Html.DisplayFor(model => model.CuisineType)<h3>
+<p>@Html.ActionLink("Edit Cusine Types", "Edit", new { id = Model.CuisineId })</p>
+<p>@Html.ActionLink("Delete Cuisine Type", "Delete", new { id = Model.CuisineId })</p>
+<p>@Html.ActionLink("Back to list", "Index")</p>

@@ -1,4 +1,4 @@
-using Systems.Collections.Generic;
+using System.Collections.Generic;
 
 namespace FavoriteRestaurants.Models
 {
@@ -10,7 +10,7 @@ namespace FavoriteRestaurants.Models
   }
 
   public int CuisineId { get; set; }
-  public string Cuisine { get; set; }
+  public string CuisineType{ get; set; }
   public virtual ICollection<Restaurant> Restaurants { get; set; }
   }
 }
