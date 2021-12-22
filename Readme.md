@@ -1,0 +1,1 @@
+![schema design](FavoriteRestaurants/wwwroot/img/schema.png)
